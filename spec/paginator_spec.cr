@@ -53,7 +53,7 @@ describe Discord::Paginator do
     }
 
     index = 0
-    paginator = Discord::Paginator(Int32).new(2, :down) do |last_page|
+    paginator = Discord::Paginator(Int32).new(2, :down) do |_last_page|
       index += 1
       data[index - 1]
     end

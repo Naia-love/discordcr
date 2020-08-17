@@ -37,7 +37,7 @@ describe Discord::VoiceUDP do
   end
 
   it "creates voice header" do
-    with_voice_udp do |server, client|
+    with_voice_udp do |_server, client|
       data = client.create_header(1_u16, 2_u32)
       data[0, 2].should eq Bytes[0x80, 0x78]
       data[2, 2].should eq Bytes[0, 1]

@@ -4,13 +4,13 @@
 
 (The "cr" stands for "creative name".)
 
-discordcr is a minimalist [Discord](https://discordapp.com/) API library for
+discordcr is a minimalist [Discord](https://discord.com/) API library for
 [Crystal](https://crystal-lang.org/), designed to be a complement to
 [discordrb](https://github.com/discordrb/discordrb) for users who want more control
 and performance and who care less about ease-of-use.
 
 discordcr isn't designed for beginners to the Discord API - while experience
-with making bots isn't *required*, it's certainly recommended. If you feel
+with making bots isn't _required_, it's certainly recommended. If you feel
 overwhelmed by the complex documentation, try
 [discordrb](https://github.com/discordrb/discordrb) first and then check back.
 
